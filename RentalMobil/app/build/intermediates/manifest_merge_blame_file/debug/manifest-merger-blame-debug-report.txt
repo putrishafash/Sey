@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azhar.rentalmobil"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\sys\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:12:9-17:20
+21            android:name="com.shafaseyo.bikesrents.activity.SplashActivity"
+21-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:12:19-58
+22            android:theme="@style/AppTheme" >
+22-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:12:59-90
+23            <intent-filter>
+23-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:13:13-16:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:14:17-69
+24-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:15:17-77
+26-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:15:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.shafaseyo.bikesrents.activity.MainActivity" />
+29-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:18:9-82
+29-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:18:19-80
+30        <activity android:name="com.shafaseyo.bikesrents.activity.DaftarSepedaActivity" />
+30-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:19:9-91
+30-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:19:19-88
+31        <activity android:name="com.shafaseyo.bikesrents.activity.PenyewaActivity" />
+31-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:20:9-86
+31-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:20:19-83
+32        <activity android:name="com.shafaseyo.bikesrents.activity.SewaSepedaActivity" />
+32-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:21:9-89
+32-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:21:19-86
+33        <activity android:name="com.shafaseyo.bikesrents.activity.DetailSepedaActivity" />
+33-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:22:9-91
+33-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:22:19-88
+34        <activity android:name="com.shafaseyo.bikesrents.activity.DetailPenyewaActivity" />
+34-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:23:9-92
+34-->C:\Data (D)\seyo\NotNamedYet\Android Training\Rental-Mobil-master\RentalMobil\app\src\main\AndroidManifest.xml:23:19-89
+35    </application>
+36
+37</manifest>

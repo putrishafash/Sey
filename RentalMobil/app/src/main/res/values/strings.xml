@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bikes Rent</string>
+    <string name="nama_penyewa">Renter Name <font color='red'>(*)</font></string>
+    <string name="no_telp_hp">Telephone <font color='red'>(*)</font></string>
+    <string name="merk_mobil">Car Brands <font color='red'>(*)</font></string>
+    <string name="lama_sewa">Rent Durations <font color='red'>(*)</font></string>
+    <string name="alamat">Address <font color="red">(*)</font></string>
+</resources>

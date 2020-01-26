@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Rental Mobil</string>
-    <string name="alamat">Alamat</string>
-    <string name="lama_sewa">Lama Sewa</string>
-    <string name="merk_mobil">Merk Mobil</string>
-    <string name="nama_penyewa">Nama Penyewa</string>
-    <string name="no_telp_hp">Telepon/HP</string>
-</resources>
